@@ -1,0 +1,5 @@
+curl -X 'POST' \
+  'http://127.0.0.1:8000/face-bokeh/star%20wars' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: multipart/form-data' \
+  -F 'file=@photo-1580130379624-3a069adbffc5.jpeg;type=image/jpeg'
